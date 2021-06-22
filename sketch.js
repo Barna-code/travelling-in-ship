@@ -11,10 +11,11 @@ function preload(){
 function setup(){
   createCanvas(400,400);
  
-  sea=createSprite(0,0);
+  sea=createSprite(400,200);
   sea.addImage(seaImage)
-  sea.velocityX=-1
- 
+  sea.velocityX=-5
+ sea.scale=0.3
+  
   ship=createSprite(200,207,99,35,)
  ship.addAnimation("movingship",shipImage) 
  ship.scale=0.3
