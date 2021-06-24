@@ -25,9 +25,11 @@ function setup(){
 
 function draw() {
   background("blue");
+  //you have not given velocity here,sea.velocityX=-3
   
 
 if(sea.x<0){
+  //make sea.x=sea.width/8
   sea.x=sea.width/4
 }
 
